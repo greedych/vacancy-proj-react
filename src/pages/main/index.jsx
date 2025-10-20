@@ -1,3 +1,4 @@
+import Categories from "../../components/Category/Categories"
 import VacancyBanner from "../../components/VacancyBanner/VacancyBanner"
 
 function Main() {
@@ -5,6 +6,7 @@ function Main() {
   return(
     <>
       <VacancyBanner/>
+      <Categories/>
     </>
   )
 }

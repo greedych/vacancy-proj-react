@@ -1,0 +1,12 @@
+
+.categoriesJobContainer {
+  background-color: #E4F2FF;
+  padding: 120px 100px;
+}
+
+.categoriesBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 70px;
+  }
