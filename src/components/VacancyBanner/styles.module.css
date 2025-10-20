@@ -1,0 +1,44 @@
+.containerBanner {
+  padding:135px 100px 335px 100px;
+  background-color: #CDE7FF;
+  background-image: url(../../assets/images/Rectangle.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.vacancyForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+.vacancyInput {
+  border: none;
+  padding: 25px 25px ;
+  &:focus {
+    outline: none;
+  }
+  &::after {
+    content: "";
+    top: 25px;
+    bottom: 25px;
+    height: 20px;
+    width: 1px;
+    background-color: #00000080;
+  }
+}
+
+.miniBorder {
+  width: 0;
+  height: 20px;
+  border-left: 1px solid #00000080 ;
+}
+
+.vacancyButton {
+  border: none;
+  background-color: #274059 ;
+  color: #fff;
+  padding: 25px;
+}
